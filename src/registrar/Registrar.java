@@ -48,7 +48,7 @@ public class Registrar {
 		   System.out.println("Choose a class to register: ");
 	        System.out.println("--------------------------");
 	        
-	        System.out.println("Class Name || Available Seats");
+	        System.out.println("Class Name || Available Seats/Max Seats");
 	        System.out.println();
 		   
 		   int count=1;
@@ -56,7 +56,7 @@ public class Registrar {
 		      String key = iterator.next().toString();  
 		      String value = classes.get(key).toString();  
 		      
-		      System.out.println(count + ") " + key + " || " + value);  
+		      System.out.println(count + ") " + key + " || " + value + "/30");  
 		      count++;
 		   }  
 		   Scanner scn = new Scanner(System.in); 
